@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "FiraCode";
+	src: url("../fonts/firacode/FiraCode-Medium.ttf");
+}
+
+@font-face {
+	font-family: "FiraCode Bold";
+	src: url("../fonts/firacode/FiraCode-Bold.ttf");
+}
+
+@font-face {
+	font-family: "FiraCode Light";
+	src: url("../fonts/firacode/FiraCode-Light.ttf");
+}
+
+body {
+	font-family: "FiraCode";
+}
+
+/* ==== FONTS ====  */
+.firacode {
+	font-family: "FiraCode";
+}
+
+.firacode-bold {
+	font-family: "FiraCode Bold";
+}
+
+.firacode-light {
+	font-family: "FiraCode Light";
+}
+
+
+/* Works on Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #FFd369 #222831;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #222831;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #FFd369;
+	border-radius: 20px;
+	border: 3px solid #222831;
+}
+
+#chat-messages::-webkit-scrollbar {
+	width: 12px;
+	margin-bottom:50px;
+}
+
+#chat-messages::-webkit-scrollbar-track {
+	background: #222831;
+	margin-bottom:50px;
+}
+
+#chat-messages::-webkit-scrollbar-thumb {
+	background-color: #FFd369;
+	border-radius: 20px;
+	border: 3px solid #222831;
+	margin-bottom:50px;
+}
+
+/* ==== FONTS ==== */
