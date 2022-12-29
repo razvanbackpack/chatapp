@@ -16,7 +16,7 @@ const { username, room } = Qs.parse(location.search, {
 	ignoreQueryPrefix: true,
 });
 
-const socket = io("https://be17-2a02-2f0e-4-3601-856e-a9c2-17df-9616.eu.ngrok.io");
+const socket = io("http://localhost:3000");
 
 // Join chatroom
 socket.emit('joinRoom', { username, room });
