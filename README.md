@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=jD7FnbI76Hg
 
 ### "Login" screen  
 
-![Login screen](https://i.imgur.com/eijiFCD.png)
+![Login screen](https://i.imgur.com/ANNNtJb.png)
 
 ### Chat view  
 
