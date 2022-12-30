@@ -1,7 +1,7 @@
 # Chatapp Client
 Made with
 - vanilla js/jquery
-- vanilla html
+- html
 - socketio
 - tailwind
 - vite  
