@@ -24,7 +24,7 @@ cd client
 npm install
 npm run dev
 ```
-Change the ```MySQL``` connection credentials from ```/server/utils/mysql```
+Change the ```MySQL``` connection credentials from ```/server/utils/mysql.js:12```
 
 # Screenshots
 
