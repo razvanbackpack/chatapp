@@ -20,7 +20,7 @@ npm run dev
 Change ```http://localhost:3000``` to whatever adress your server is running on ```/client/public/js/main.js:19```
 ## Running the Server
 ```
-cd client
+cd server
 npm install
 npm run dev
 ```
