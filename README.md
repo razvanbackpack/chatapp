@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=jD7FnbI76Hg
 
 ## Requirements:
  - npm
- - MySQL
+ - MySQL (at the moment it's really useless; but the script will throw an error if you visit the link in the routes)
  - ngrok (optional, for opening server to internet while developing)
 ## Running the Client
 ```
